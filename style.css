@@ -15,7 +15,7 @@ body {
 
 .row {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -49,9 +49,10 @@ NAVBAR ↓
 */
 
 
-nav {
+.nav {
     display: flex;
-    padding-top: 32px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav__row {
@@ -64,6 +65,11 @@ nav {
     align-items: center;
     margin: 8px 0;
     padding-bottom: 4px;
+}
+
+.nav__logo--img {
+    width: 200px;
+    height: auto;
 }
 
 
