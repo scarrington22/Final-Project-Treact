@@ -255,6 +255,9 @@ header .row {
 FEATURES ↓
 
 */
+.h1{
+    align-content: center;
+}
 
 
 #features {
